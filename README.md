@@ -3,7 +3,7 @@
 ## Java - каркас коллекций Collections Framework.
 ###### *Алгоритмы и структуры данных в Java*
 
-<details><summary>Класс ArrayList и интерфейс List</summary>
+<details><summary>Интерфейс List и класс ArrayList</summary>
 
 ><details><summary>Интерфейс List</summary>
 > 
