@@ -38,15 +38,15 @@
 >ArrayList<String> users = new ArrayList<String>(25);
 >```
 >
->Задача:  
+>**Задача**:  
 >Нужно заполнить два списка четными числами, первый от 4 до 20 с отступлением в 4.  
 >Второй от 2 до 20 с отступлением в 2.  
 >В первом списке результат должен быть: 4, 8, 12, 16, 20.  
 >Во втором : 2, 4, 6, 8, 10, 12, 14, 16, 18, 20.  
 >Далее удалить из коллекций те цифры которые не повторяются.  
 >Таким образом во втором списке останутся те элементы, которые присутствуют в первом списке.
->Резульат должен быть: 4, 8, 12, 16, 20
->[src/InterfaceList/ArrayListNumber - Пример задачи ArrayListNumber](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceList/ArrayListNumber.java "Посмотреть пример Java")
+>Резульат должен быть: 4, 8, 12, 16, 20.  
+>[src/InterfaceList/ArrayListNumber - Пример решения задачи ArrayListNumber](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceList/ArrayListNumber.java "Посмотреть пример Java")
 </details>
 
 </small>
