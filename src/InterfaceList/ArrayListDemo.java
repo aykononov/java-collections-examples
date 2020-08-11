@@ -23,3 +23,13 @@ public class ArrayListDemo {
         }
     }
 }
+/*
+Присваиваем новое значение 1-му элементу:
+Alex <- Aleksandr
+
+Список пользователей содержит 4 элемента:
+Aleksandr
+Ivan
+Elena
+Mariya
+ */

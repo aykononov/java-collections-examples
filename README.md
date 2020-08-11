@@ -31,7 +31,8 @@
 >ArrayList(int capacity): создает список, который имеет начальную емкость capacity
 >```
 >мкость в ArrayList представляет размер массива, который будет использоваться для хранения объектов. При добавлении элементов фактически происходит перераспределение памяти - создание нового массива и копирование в него элементов из старого массива. Изначальное задание емкости ArrayList позволяет снизить подобные перераспределения памяти, тем самым повышая производительность.
->[src/InterfaceList/ArrayListDemo - Пример класса ArrayList и его методы](https://github.com/aykononov/JavaCollections/src/InterfaceList/ArrayListDemo.java "Посмотреть пример Java")  
+>[src/InterfaceList/ArrayListDemo - Пример класса ArrayList и его методы](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceList/ArrayListDemo.java "Посмотреть пример Java")  
+
 </details>
 
 </small>
