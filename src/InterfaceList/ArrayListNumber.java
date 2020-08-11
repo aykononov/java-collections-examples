@@ -1,5 +1,6 @@
 package InterfaceList;
 
+// Пример решения задачи с применением ArrayList
 import java.util.ArrayList;
 import java.util.Arrays;
 
