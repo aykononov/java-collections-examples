@@ -17,7 +17,7 @@ public class ArrayListNumber {
     public static void main(String[] args) {
 
         ArrayList<Integer> listNum1 = new ArrayList<Integer>();
-        for (int i = 4; i <= 20; i+= 4) {
+        for (int i = 4; i <= 20; i += 4) {
             listNum1.add(i);
         }
 
@@ -27,7 +27,7 @@ public class ArrayListNumber {
         }
 
         ArrayList<Integer> listNum2 = new ArrayList<Integer>();
-        for (int i = 2; i <= 20; i+= 2) {
+        for (int i = 2; i <= 20; i += 2) {
             listNum2.add(i);
         }
 
