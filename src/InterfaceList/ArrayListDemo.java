@@ -1,10 +1,13 @@
 package InterfaceList;
+
+// Пример класса ArrayList и его методов
 import java.util.ArrayList;
+
 public class ArrayListDemo {
     public static void main(String[] args) {
         ArrayList<String> users = new ArrayList<String>();
 
-        // Добавить в список новые элементы
+        // Добавляем в список новые элементы
         users.add(0,"Alex");
         users.add(1,"Ivan");
         users.add(2,"Elena");
