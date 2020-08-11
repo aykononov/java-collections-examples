@@ -47,13 +47,20 @@ public class ArrayListDemo {
         }
 
 
-        System.out.printf("\nНовый список пользователей содержит %d элемента: \n", users.size());
+        System.out.printf("\nНовый список пользователей содержит %d элементов: \n", users.size());
         // С помощью метода toArray() мы можем преобразовать список в массив объектов.
         Object[] obArray = users.toArray();
         for (Object person : obArray) {
             System.out.println(person);
         }
 
+        // Добавляем новый элемент по индексу 4
+        System.out.println("\nДобавляем новый элемент по индексу 4");
+        users.add(2,"Olga <<");
+        System.out.printf("\nПосле добавления, в списке %d элементов: \n", users.size());
+        for (String person : users ) {
+            System.out.println(person);
+        }
     }
 }
 /* --------------------------------------
@@ -74,9 +81,19 @@ Mariya
 
 Добавляем элементы в список.
 
-Новый список пользователей содержит 5 элемента:
+Новый список пользователей содержит 5 элементов:
 Elena
 Mariya
+Aleksandr
+Ivan
+Petr
+
+Добавляем новый элемент по индексу 4
+
+После добавления, в списке 6 элементов:
+Elena
+Mariya
+Olga <<
 Aleksandr
 Ivan
 Petr
