@@ -1,6 +1,6 @@
 package InterfaceList;
 
-// Пример использования класса LinkedList и его методов https://metanit.com/java/tutorial/5.3.php
+// Пример использования класса LinkedList и его методов
 import java.util.LinkedList;
 
 class Personal {
