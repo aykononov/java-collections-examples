@@ -59,12 +59,13 @@ public class LinkedListDemo {
 
         // очередь из объектов класса Personal
         LinkedList<Personal> people = new LinkedList<Personal>();
+
         people.add(new Personal("Olga"));
         people.addFirst(new Personal("Anna"));
         people.addLast(new Personal("Petr"));
         people.add(new Personal("Vladimir"));
 
-        System.out.printf("\n\nВ очереди %d элемента: ", people.size());
+        System.out.printf("\n\nСоздали очередь c %d элементами: ", people.size());
         for (Personal p : people) {
             System.out.print(p.getName() + " ");
         }
@@ -88,7 +89,7 @@ public class LinkedListDemo {
 
 В коллекции 5 элементов: Olga Ivan Elena Mariya Petr
 
-В очереди 4 элемента: Anna Olga Petr Vladimir
+Создали очередь c 4 элементами: Anna Olga Petr Vladimir
 первый элемент в очереди: Anna
 последний элемент в очереди: Vladimir
  */
