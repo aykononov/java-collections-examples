@@ -43,7 +43,18 @@ public class HashSetDemo {
         for (Person p : people) {
             System.out.println(p.hashCode() + "\t" + p.getName());
         }
-
-        people.remove()
     }
 }
+/*
+В коллекции 4 Несортированных элемента: Alex Mariya Ivan Elena
+
+Пробуем добавить существующий элемент Alex, результат: false
+
+Пробуем удалить существующий элемент Alex, результат: true
+
+Хэш-таблица Несортированных объектов Person:
+559670971	Olga
+1576861390	Vladimir
+1144648478	Petr
+853119666	Anna
+ */
