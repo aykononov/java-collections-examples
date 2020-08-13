@@ -4,10 +4,10 @@ package InterfaceSet;
 
 import java.util.HashSet;
 
-class Person {
+class Persons {
     private String name;
 
-    public Person(String name) {
+    public Persons(String name) {
         this.name = name;
     }
 
@@ -34,13 +34,13 @@ public class HashSetDemo {
         System.out.println("\nПробуем удалить существующий элемент Alex, результат: " + users.remove("Alex"));
 
         System.out.println("\nХэш-таблица Несортированных объектов Person:");
-        HashSet<Person> people = new HashSet<Person>();
-        people.add(new Person("Anna"));
-        people.add(new Person("Olga"));
-        people.add(new Person("Petr"));
-        people.add(new Person("Vladimir"));
+        HashSet<Persons> people = new HashSet<Persons>();
+        people.add(new Persons("Anna"));
+        people.add(new Persons("Olga"));
+        people.add(new Persons("Petr"));
+        people.add(new Persons("Vladimir"));
 
-        for (Person p : people) {
+        for (Persons p : people) {
             System.out.println(p.hashCode() + "\t" + p.getName());
         }
     }
