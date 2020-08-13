@@ -43,7 +43,7 @@ public class LinkedListDemo {
 
         // Проверяем наличие элемента в коллекции
         if (users.contains("Anna")) {
-            System.out.println("\nУдаляем элемент Anna");
+            System.out.println("\nУдаляем существующий элемент Anna");
             users.remove("Anna"); // удаляем такой элемент
         }
 
