@@ -25,7 +25,6 @@ public class HashSetDemo {
         users.add("Elena");
         users.add("Mariya");
 
-
-        System.out.println("Попробуем добавить существующий элемент: " + users.add("Alex"));
+       System.out.println("Попробуем добавить существующий элемент: " + users.add("Alex"));
     }
 }
