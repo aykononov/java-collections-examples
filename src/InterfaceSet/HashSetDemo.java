@@ -26,15 +26,19 @@ public class HashSetDemo {
         users.add("Mariya");
 
         System.out.printf("В коллекции %d Несортированных элемента: ", users.size());
+
         for (String name : users) {
             System.out.print(name + " ");
         }
+
         System.out.println();
         System.out.println("\nПробуем добавить существующий элемент Alex, результат: " + users.add("Alex"));
         System.out.println("\nПробуем удалить существующий элемент Alex, результат: " + users.remove("Alex"));
 
         System.out.println("\nХэш-таблица Несортированных объектов Person:");
+
         HashSet<Persons> people = new HashSet<Persons>();
+
         people.add(new Persons("Anna"));
         people.add(new Persons("Olga"));
         people.add(new Persons("Petr"));

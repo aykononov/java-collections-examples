@@ -158,6 +158,42 @@
 >[HashSetDemo - Пример использования класса HashSet](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceSet/HashSetDemo.java "Посмотреть пример Java")
 </details>
 
+<details><summary>Интерфейс SortedSet, NavigableSet, класс TreeSet</summary>
 
+>Интерфейс *SortedSet* предназначен для создания коллекций, где элементы хранятся в отсортированном (по возрастанию) виде. *SortedSet* расширяет нитерфейс *Set*, поэтому хранит только уникальные значения.
+>
+>*SortedSet* предоставляет следующие методы:  
+>* **E first()**: возвращает первый элемент набора  
+>* **E last()**: возвращает последний элемент набора  
+>* **SortedSet<E> headSet(E end)**: возвращает объект SortedSet, который содержит все элементы первичного набора до элемента end  
+>* **SortedSet<E> subSet(E start, E end)**: возвращает объект SortedSet, который содержит все элементы первичного набора между элементами start и end  
+>* **SortedSet<E> tailSet(E start)**: возвращает объект SortedSet, который содержит все элементы первичного набора, начиная с элемента start  
+>
+>Интерфейс *NavigableSet* расширяет интерфейс *SortedSet* и позволяет извлекать элементы на основании их значений.
+> 
+>*NavigableSet* определяет следующие методы:  
+>* **E ceiling(E obj)**: ищет в наборе наименьший элемент e, который больше obj (e >=obj). Если такой элемент найден, то он возвращается в качестве результата. Иначе возвращается null.  
+>* **E floor(E obj)**: ищет в наборе наибольший элемент e, который меньше элемента obj (e <=obj). Если такой элемент найден, то он возвращается в качестве результата. Иначе возвращается null.  
+>* **E higher(E obj)**: ищет в наборе наименьший элемент e, который больше элемента obj (e >obj). Если такой элемент найден, то он возвращается в качестве результата. Иначе возвращается null.  
+>* **E lower(E obj)**: ищет в наборе наибольший элемент e, который меньше элемента obj (e <obj). Если такой элемент найден, то он возвращается в качестве результата. Иначе возвращается null.  
+>* **E pollFirst()**: возвращает первый элемент и удаляет его из набора  
+>* **E pollLast()**: возвращает последний элемент и удаляет его из набора  
+>* **NavigableSet<E> descendingSet()**: возвращает объект NavigableSet, который содержит все элементы первичного набора NavigableSet в обратном порядке  
+>* **NavigableSet<E> headSet(E upperBound, boolean incl)**: возвращает объект NavigableSet, который содержит все элементы первичного набора NavigableSet до upperBound. Параметр incl при значении true, позволяет включить в выходной набор элемент upperBound  
+>* **NavigableSet<E> tailSet(E lowerBound, boolean incl)**: возвращает объект NavigableSet, который содержит все элементы первичного набора NavigableSet, начиная с lowerBound. Параметр incl при значении true, позволяет включить в выходной набор элемент lowerBound  
+>* **NavigableSet<E> subSet(E lowerBound, boolean lowerIncl, E upperBound, boolean highIncl)**: возвращает объект NavigableSet, который содержит все элементы первичного набора NavigableSet от lowerBound до upperBound.
+>
+>Обобщенный класс *TreeSet<E>* представляет структуру данных в виде дерева, в котором все объекты хранятся в отсортированном виде по возрастанию. *TreeSet* является наследником класса *AbstractSet* и реализует интерфейс *NavigableSet*, а следовательно, и интерфейс *SortedSet*.
+>
+>В классе *TreeSet* определены следующие конструкторы:  
+>```java
+>TreeSet(): создает пустое дерево  
+>TreeSet(Collection<? extends E> col): создает дерево, в которое добавляет все элементы коллекции col  
+>TreeSet(SortedSet <E> set): создает дерево, в которое добавляет все элементы сортированного набора set 
+>TreeSet(Comparator<? super E> comparator): создает пустое дерево, где все добавляемые элементы впоследствии будут отсортированы компаратором  
+>```
+>*TreeSet* поддерживает все стандартные методы для вставки и удаления элементов.
+>[TreeSetDemo - Пример использования класса TreeSet](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceSet/TreeSetDemo.java "Посмотреть пример Java")
+</details>
 
 </small>
