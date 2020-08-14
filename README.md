@@ -158,7 +158,7 @@
 >[HashSetDemo - Пример использования класса HashSet](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceSet/HashSetDemo.java "Посмотреть пример Java")
 </details>
 
-<details><summary>Интерфейс SortedSet, NavigableSet, класс TreeSet</summary>
+<details><summary>Интерфейс SortedSet, NavigableSet и класс TreeSet</summary>
 
 >Интерфейс *SortedSet* предназначен для создания коллекций, где элементы хранятся в отсортированном (по возрастанию) виде. *SortedSet* расширяет нитерфейс *Set*, поэтому хранит только уникальные значения.
 >
