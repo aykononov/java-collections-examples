@@ -13,7 +13,7 @@ import java.util.Arrays;
 Далее удалить из коллекции те цифры которые не повторяются.
 Таким образом во втором списке должны остаться: 4, 8, 12, 16, 20
  */
-public class ArrayListNumber {
+public class ArrayListExample {
     public static void main(String[] args) {
 
         ArrayList<Integer> listNum1 = new ArrayList<Integer>();
@@ -37,8 +37,7 @@ public class ArrayListNumber {
             System.out.print(i + " ");
         }
 
-        System.out.println("\nПосле удаления.");
-        System.out.print("listNum2: ");
+        System.out.print("\nПосле удаления результат listNum2: ");
 
         for (int i = 0; i < listNum2.size(); i++) {
             if (!listNum1.contains(listNum2.get(i))) {
@@ -51,9 +50,8 @@ public class ArrayListNumber {
         }
     }
 }
-/* --------------------------------
+/* --------------------------------------------
 listNum1: 4 8 12 16 20
 listNum2: 2 4 6 8 10 12 14 16 18 20
-После удаления.
-listNum2: 4 8 12 16 20
+После удаления результат listNum2: 4 8 12 16 20
  */
