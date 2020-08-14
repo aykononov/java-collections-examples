@@ -6,13 +6,14 @@ public class TreeSetDemo {
     public static void main(String[] args) {
         TreeSet<String> users = new TreeSet<String>();
         // Добавим в список ряд элементов
+        // при вставке объекты сразу же сортируются по возрастанию
         users.add("Alex");
         users.add("Ivan");
         users.add("Elena");
         users.add("Mariya");
 
         System.out.printf("В коллекции %d отсортированных элемента: ", users.size());
-
+        // Вывод получает остортированный набор
         for (String name : users) {
             System.out.print(name + " ");
         }
