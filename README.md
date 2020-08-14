@@ -53,7 +53,7 @@
 >Таким образом во втором списке останутся те элементы, которые присутствуют в первом списке.  
 >Резульат должен быть: 4, 8, 12, 16, 20.
 >  
->[ArrayListNumber - Пример решения задачи с применением ArrayList](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceList/ArrayListNumber.java "Посмотреть пример Java")
+>[ArrayListExample - Задача с применением ArrayList](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceList/ArrayListExample.java "Посмотреть пример Java")
 >
 </details>
 
