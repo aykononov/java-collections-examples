@@ -37,7 +37,7 @@ public class ArrayListExample {
             System.out.print(i + " ");
         }
 
-        System.out.print("\nПосле удаления результат listNum2: ");
+        System.out.print("\nРезультирующий набор listNum2: ");
 
         for (int i = 0; i < listNum2.size(); i++) {
             if (!listNum1.contains(listNum2.get(i))) {
@@ -53,5 +53,5 @@ public class ArrayListExample {
 /* --------------------------------------------
 listNum1: 4 8 12 16 20
 listNum2: 2 4 6 8 10 12 14 16 18 20
-После удаления результат listNum2: 4 8 12 16 20
+Результирующий набор listNum2: 4 8 12 16 20 
  */
