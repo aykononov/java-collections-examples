@@ -192,7 +192,7 @@
 >TreeSet(SortedSet <E> set): создает дерево, в которое добавляет все элементы сортированного набора set 
 >TreeSet(Comparator<? super E> comparator): создает пустое дерево, где все добавляемые элементы впоследствии будут отсортированы компаратором  
 >```
->*TreeSet* поддерживает все стандартные методы для вставки и удаления элементов.
+>*TreeSet* поддерживает все стандартные методы для вставки и удаления элементов.  
 >[TreeSetDemo - Пример использования класса TreeSet](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceSet/TreeSetDemo.java "Посмотреть пример Java")
 </details>
 
