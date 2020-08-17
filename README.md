@@ -207,9 +207,8 @@
 >  
 >[ComparableDemo - Пример типизации класса TreeSet объектом типа Person](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceComparable/ComparableDemo.java "Посмотреть пример Java")
 >
->Интерфейс *Comparator* - применяется, если вдруг не реализован в своем классе , либо необходимо переопределить существующую функциональность интерфейса *Comparable*.
->
->Интерфейс *Comparator* содержит ряд методов, ключевым из которых является метод compare():  
+>Интерфейс *Comparator* - применяется, если вдруг не реализован в своем классе , либо необходимо переопределить существующую функциональность интерфейса *Comparable*.  
+>Он содержит ряд методов, ключевым из которых является метод compare():  
 >```java
 >public interface Comparator<E> {
 >    int compare(T a, T b);
