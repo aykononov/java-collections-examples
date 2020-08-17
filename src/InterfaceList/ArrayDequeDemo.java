@@ -14,7 +14,7 @@ class Person {
         return this.name;
     }
 }
-public class ArrayDequeDemo {
+class ArrayDequeDemo {
     public static void main(String[] args) {
         ArrayDeque<String> users = new ArrayDeque<String>();
 

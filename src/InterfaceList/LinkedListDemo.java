@@ -14,7 +14,7 @@ class Personal {
         return this.name;
     }
 }
-public class LinkedListDemo {
+class LinkedListDemo {
     public static void main(String[] args) {
         LinkedList<String> users = new LinkedList<String>();
 

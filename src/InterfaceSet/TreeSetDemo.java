@@ -27,7 +27,7 @@ public class TreeSetDemo {
         System.out.println("\nПолучим последний элемент: " + users.last());
         System.out.println("\nДобавим элемент Petr, результат: " + users.add("Petr"));
 
-        // Создадим набор элемнотв С одного элемента До другого
+        // Создадим набор элемнотв c Одного элемента до Другого
         SortedSet<String> sortSetOfElements = users.subSet("Elena","Petr");
         System.out.println("\nПоднабор: " + sortSetOfElements);
 
