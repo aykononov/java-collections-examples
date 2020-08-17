@@ -215,7 +215,7 @@
 >}
 >```  
 >Метод *compare* также возвращает числовое значение. Если оно отрицательное, то объект a предшествует объекту b, иначе - наоборот, если метод возвращает ноль, то объекты равны. Для применения интерфейса нам вначале надо создать *класс компаратора*, который реализует этот интерфейс:  
->[ComparatorDemo - Пример использования класса компаратор для создания объекта TreeSet](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceComparable/ComparableDemo.java "Посмотреть пример Java")
+>[ComparatorDemo - Пример использования класса компаратор для создания объекта TreeSet](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceComparable/ComparatorDemo.java "Посмотреть пример Java")
 </details>
 
 </small>
