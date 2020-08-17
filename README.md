@@ -1,6 +1,7 @@
 <small>
 
 ## Примеры использования коллекций и принципы их работы.
+### Examples of using collections and how they work.
 ###### *Java Collections Framework - каркас коллекций*
 
 <details><summary>Интерфейс List и класс ArrayList</summary>
