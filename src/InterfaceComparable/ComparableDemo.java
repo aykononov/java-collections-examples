@@ -1,6 +1,6 @@
 package InterfaceComparable;
 
-// Пример типизации класса TreeSet объектом типа
+// Пример типизации класса TreeSet объектом типа Person и сохранить в файл
 import java.io.*;
 import java.util.TreeSet;
 /*
