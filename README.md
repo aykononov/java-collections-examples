@@ -1,7 +1,7 @@
 <small>
 
-## Java - каркас коллекций Collections Framework.
-###### *Примеры использования коллекций и принципы их работы...*
+## Примеры использования коллекций и принципы их работы...
+###### *Java Collections Framework - каркас коллекций*
 
 <details><summary>Интерфейс List и класс ArrayList</summary>
 
