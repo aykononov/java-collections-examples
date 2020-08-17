@@ -1,5 +1,6 @@
 package InterfaceComparator;
 
+// Пример использования цепочек класса компаратор для создания объекта TreeSet
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
@@ -21,12 +22,15 @@ class Persons {
         return this.age;
     }
 }
+
+// Первый приоритет компраратора для сортировки по имени
 class PersonNameComparator implements Comparator<Persons> {
     public int compare(Persons a, Persons b) {
         return a.getName().compareTo(b.getName());
     }
 }
 
+// Второй приоритет компаратора для сортировки по возрасту
 class PersonAgeComparator implements Comparator<Persons> {
     public int compare(Persons a, Persons b) {
         if (a.getAge() > b.getAge())
@@ -37,8 +41,10 @@ class PersonAgeComparator implements Comparator<Persons> {
             return 0;
     }
 }
+//
 class ComparatorChainsDemo {
     public static void main(String[] args) {
+        // Метод thenComparing() использует цепочки компараторов для сортировки набора
         Comparator<Persons> pcomp = new PersonNameComparator().thenComparing(new PersonAgeComparator());
         TreeSet<Persons> users = new TreeSet<Persons>(pcomp);
         users.add(new Persons("Alex", 22));
@@ -46,6 +52,7 @@ class ComparatorChainsDemo {
         users.add(new Persons("Elena", 32));
         users.add(new Persons("Mariya", 33));
 
+        // Запись данных коллекции в файл
         String file = "outfile.txt";
         String path = "./src/InterfaceComparator/";
         System.out.print("Пользователи: ");
