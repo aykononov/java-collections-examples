@@ -1,5 +1,6 @@
 package InterfaceMap;
 
+// Пример использования класса HashMap
 import java.util.*;
 
 class Person {

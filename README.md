@@ -348,6 +348,21 @@
 >NavigableMap<K, V> tailMap(K lowerBound, boolean incl): возвращает отображение NavigableMap, которое содержит все элементы оригинального NavigableMap, начиная с элемента с ключом lowerBound. Параметр incl при значении true указывает, что элемент с ключом lowerBound также включается в выходной набор.
 >NavigableMap<K, V> subMap(K lowerBound, boolean lowIncl, K upperBound, boolean highIncl): возвращает отображение NavigableMap, которое содержит все элементы оригинального NavigableMap от элемента с ключом lowerBound до элемента с ключом upperBound. Параметры lowIncl и highIncl при значении true включают в выходной набор элементы с ключами lowerBound и upperBound соответственно.
 >```
+>
+>**Класс TreeMap<K, V>**
+>
+>Представляет отображение в виде дерева. Он наследуется от класса *AbstractMap* и реализует интерфейс *NavigableMap*, соответсвенно, также и интерфейс *SortedMap*. Поэтому в отличие от коллекции *HashMap* в *TreeMap* все объекты *автоматически сортируются по возрастанию их ключей*.
+>
+>Класс TreeMap имеет следующие конструкторы:
+>```
+>TreeMap(): создает пустое отображение в виде дерева
+>TreeMap(Map<? extends K,​? extends V> map): создает дерево, в которое добавляет все элементы из отображения map
+>TreeMap(SortedMap<K, ? extends V> smap): создает дерево, в которое добавляет все элементы из отображения smap
+>TreeMap(Comparator<? super K> comparator): создает пустое дерево, где все добавляемые элементы впоследствии будут отсортированы компаратором.
+>```
+>[TreeMapDemo - Пример использования класса TreeMap](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceHashMap/TreeMapDemo.java "Посмотреть пример Java")
+>Кроме методов интерфейса *Map* класс *TreeMap* реализует методы интерфейса *NavigableMap*. Например, можно получить все объекты *до* или *после* определенного ключа с помощью методов *headMap* и *tailMap*. Также можно получить *первый* и *последний* элементы и провести ряд дополнительных манипуляций с объектами.
+>*Для того чтобы получить ключ по значению придется использовать ПЕРЕБОР, так как такого метода НЕТ.* 
 </details>
 
 </small>
