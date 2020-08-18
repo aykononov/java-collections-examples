@@ -303,7 +303,7 @@
 >
 >Базовым классом для всех отображений является абстрактный класс *AbstractMap*, который реализует большую часть методов интерфейса *Map*. Наиболее распространенным классом отображений является *HashMap*, который реализует интерфейс *Map* и наследуется от класса *AbstractMap*.
 >
->[HashMapDemo - Пример использования класса HashMap](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceHashMap/HashMapDemo.java "Посмотреть пример Java")  
+>[HashMapDemo - Пример использования класса HashMap](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceMap/HashMapDemo.java "Посмотреть пример Java")  
 >
 </details>
 
@@ -360,7 +360,7 @@
 >TreeMap(SortedMap<K, ? extends V> smap): создает дерево, в которое добавляет все элементы из отображения smap
 >TreeMap(Comparator<? super K> comparator): создает пустое дерево, где все добавляемые элементы впоследствии будут отсортированы компаратором.
 >```
->[TreeMapDemo - Пример использования класса TreeMap](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceHashMap/TreeMapDemo.java "Посмотреть пример Java")
+>[TreeMapDemo - Пример использования класса TreeMap](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceMap/TreeMapDemo.java "Посмотреть пример Java")
 >
 >Кроме методов интерфейса *Map* класс *TreeMap* реализует методы интерфейса *NavigableMap*. Например, можно получить все объекты *до* или *после* определенного ключа с помощью методов *headMap* и *tailMap*. Также можно получить *первый* и *последний* элементы и провести ряд дополнительных манипуляций с объектами.
 >
