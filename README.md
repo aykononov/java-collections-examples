@@ -225,8 +225,13 @@
 >
 >Интерфейс компаратора определяет специальный метод по умолчанию *thenComparing*, который позволяет использовать цепочки компараторов для сортировки набора. Например, нам надо отсортировать пользователей по имени и по возрасту:
 >
->[ComparatorChainsDemo - Пример использования цепочек класса компаратор для создания объекта TreeSet](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceComparator/ComparatorChainsDemo.java "Посмотреть пример Java")
+>[ComparatorSortDemo - Пример использования цепочки компараторов для сортировки набора](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceComparator/ComparatorSortDemo.java "Посмотреть пример Java")
 </details>
 
+<details><summary>Интерфейс Map и класс HashMap</summary>
+
+>
+>
+</details>
 
 </small>

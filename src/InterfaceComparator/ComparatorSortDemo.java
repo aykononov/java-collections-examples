@@ -1,6 +1,6 @@
 package InterfaceComparator;
 
-// Пример использования цепочек класса компаратор для создания объекта TreeSet
+// Пример использования цепочки компараторов для сортировки набора
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
@@ -42,7 +42,7 @@ class PersonAgeComparator implements Comparator<Persons> {
     }
 }
 //
-class ComparatorChainsDemo {
+class ComparatorSortDemo {
     public static void main(String[] args) {
         // Метод thenComparing() использует цепочки компараторов для сортировки набора
         Comparator<Persons> pcomp = new PersonNameComparator().thenComparing(new PersonAgeComparator());
