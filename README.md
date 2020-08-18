@@ -368,4 +368,24 @@
 >
 </details>
 
+<details><summary>Итераторы</summary>
+
+>
+>Одним из ключевых методов интерфейса *Collection* является метод *Iterator<E> iterator()*. Он возвращает *ИТЕРАТОР* - то есть объект, реализующий интерфейс *Iterator*.
+>
+>Интерфейс *Iterator* имеет следующее определение:
+>```java
+>public interface Iterator<E> {
+>    E next();
+>    boolean hasNext();
+>    void remove();
+>}
+>```
+>Реализация интерфейса предполагает, что с помощью вызова метода *next()* можно получить *следующий* элемент. Метод hasNext() проверяет, присутствует ли *следующий элемент*, не достигнут ли *конец коллекции* - и если элементы еще имеются, то *hasNext()* возвращает *true*. Метод *hasNext()* следует вызывать перед методом *next()*, так как при достижении *конца* коллекции метод *next()* выбрасывает *исключение* NoSuchElementException.  
+>Метод *remove()* удаляет текущий элемент, который был получен последним вызовом *next()*.
+>
+>[IteratorDemo - Пример Итератора для перебора коллекции ArrayList](https://github.com/aykononov/JavaCollections/blob/master/src/InterfaceIterator/IteratorDemo.java "Посмотреть пример Java")
+>
+</details>
+
 </small>
