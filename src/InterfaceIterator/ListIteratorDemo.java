@@ -2,8 +2,7 @@ package InterfaceIterator;
 
 // Пример использования ListIterator
 
-import java.util.ArrayList;
-import java.util.ListIterator;
+import java.util.*;
 
 class ListIteratorDemo {
     public static void main(String[] args) {
